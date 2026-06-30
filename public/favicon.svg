@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle Glow -->
+  <circle cx="50" cy="50" r="48" fill="#0B1020" stroke="#3B82F6" stroke-width="2" stroke-opacity="0.3" />
+  <circle cx="50" cy="50" r="40" fill="url(#bgGlow)" />
+  
+  <!-- Developer Symbol & Letter 'K' -->
+  <g transform="translate(0, 0)">
+    <!-- Letter K with code brackets style or premium typography -->
+    <path d="M 38 28 L 38 72 M 38 50 L 58 28 M 44 44 L 62 72" 
+          stroke="url(#textGrad)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none" />
+    <!-- Code dot marker -->
+    <circle cx="62" cy="28" r="4" fill="#60A5FA" />
+  </g>
+</svg>
