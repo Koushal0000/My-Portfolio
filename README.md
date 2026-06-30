@@ -22,7 +22,7 @@ A modern, responsive personal portfolio showcasing my projects, technical skills
 
 ## 🌐 Live Demo
 
-https://your-portfolio.vercel.app
+https://pkoushal-portfolio.vercel.app/
 
 ## 📬 Contact
 
