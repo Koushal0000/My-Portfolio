@@ -8,7 +8,8 @@ import {
   BrainCircuit,
   Globe,
   Lock,
-  Cpu
+  Cpu,
+  Sparkles
 } from 'lucide-react';
 import {
   JavaIcon,
@@ -70,6 +71,17 @@ export default function Skills() {
       skills: [
         { name: 'MongoDB', icon: <MongoIcon size={16} /> },
         { name: 'MySQL', icon: <MySqlIcon size={16} /> },
+      ],
+    },
+    {
+      title: 'AI & GenAI',
+      icon: <Sparkles className="w-5 h-5 text-cyan-accent" />,
+      skills: [
+        { name: 'Prompt Engineering', icon: <Sparkles className="w-4 h-4 text-[#F7DF1E]" /> },
+        { name: 'RAG', icon: <BrainCircuit className="w-4 h-4 text-[#60A5FA]" /> },
+        { name: 'Embeddings', icon: <Globe className="w-4 h-4 text-blue-glow" /> },
+        { name: 'Vector Databases', icon: <Database className="w-4 h-4 text-[#47A248]" /> },
+        { name: 'AI Agents', icon: <Cpu className="w-4 h-4 text-[#EF4444]" /> },
       ],
     },
     {

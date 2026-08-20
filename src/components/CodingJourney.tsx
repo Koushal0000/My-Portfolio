@@ -82,7 +82,7 @@ export default function CodingJourney() {
             {/* Count-Up Problems Solved */}
             <div className="mb-4 select-none">
               <div className="text-4xl font-black text-slate-100 font-heading">
-                <CountUp target={120} />+
+                <CountUp target={130} />+
               </div>
               <p className="text-slate-400 text-xs font-semibold uppercase tracking-wider mt-1">
                 Problems Solved
